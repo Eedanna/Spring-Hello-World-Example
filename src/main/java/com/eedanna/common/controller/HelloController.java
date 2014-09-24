@@ -23,7 +23,7 @@ public class HelloController {
 	 */
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
-		model.addAttribute("message", message);
+		model.addAttribute("message", message);		
 		return "hello";
 
 	}
@@ -39,7 +39,7 @@ public class HelloController {
 	 */
 	@RequestMapping(value = "/hi", method = RequestMethod.GET)
 	public String hi(@RequestParam("name") String name, Model model) {
-		String message = "Hi " + name + "!";
+		String message = "Hello " + name + "!";
 		model.addAttribute("message", message);
 		return "hi";
 	}
