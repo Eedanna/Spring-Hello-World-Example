@@ -2,12 +2,16 @@ Here are the Steps to execute this project
 ----------------------------------------------
 
 1. Clone / download the codebase in to your local machine
+
 2. Open Eclipse IDE (as i have used eclipse for this project), import as a maven project
+
 3. Execute mvn clean install
+
 4. Add Tomcat server to the eclipse
+
 5. Right on the project and select properties option and perform all the below steps
 
-   -- Goto build path tab and verigy all the jars are available
+   -- Goto Build path tab and verify all the jars are available
    
    -- Goto Order and Export tab and select all the jars and the click Apply button
    
@@ -19,12 +23,14 @@ Here are the Steps to execute this project
    
    -- Goto Web Project setting tab , edit context root value as your wish (I have given SpringMVC)
    
- 6. Add project to the Tomcat server
+ 6. Add Spring project to the Tomcat server
+ 
  7. Start tomcat server
+ 
  8. Launch the applciation using the below URLs
  
-   -- http://localhost:8080/SpringMVC/welcome
+    http://localhost:8080/SpringMVC/welcome
    
-   -- http://localhost:8080/SpringMVC/hi?name=User1
+    http://localhost:8080/SpringMVC/hi?name=User1
    
    
