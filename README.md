@@ -18,6 +18,7 @@ Here are the Steps to execute this project
  8. Launch the applciation using the below URLs
  
    -- http://localhost:8080/SpringMVC/welcome
+   
    -- http://localhost:8080/SpringMVC/hi?name=User1
    
    
